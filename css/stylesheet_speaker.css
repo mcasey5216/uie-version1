@@ -1,0 +1,25 @@
+.speaker-preview .headshot {
+  margin-bottom: 0.65em;
+  display: table;
+  width: 100%;
+}
+.speaker-preview .image {
+  display: table-cell;
+  width: 25%;
+  vertical-align: top;
+}
+.speaker-preview .speaker {
+  display: table-cell;
+  width: 75%;
+  padding-left: 0.75em;
+  vertical-align: top;
+}
+.speaker-preview .speaker h3 a {
+  color:  #5c626a;
+  border: none;
+}
+.speaker-preview:after {
+  content: "";
+  display: table;
+  clear: both;
+}

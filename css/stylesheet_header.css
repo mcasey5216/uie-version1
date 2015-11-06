@@ -1,0 +1,38 @@
+.header {
+  padding: 1.8em 24px 1.4em;
+  text-align: center;
+}
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.logo img {
+  width: 29.125em;
+  display: block;
+  margin: 0 auto;
+}
+.ondemand h1 {
+  font-size: 1.9em;
+  margin-top: 0;
+}
+#logo{
+  position:relative;
+  z-index:2;
+  margin-top: 12px;
+}
+#background{
+  position:absolute;
+  z-index:1;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden;
+  height: 5em;
+  max-width: 925px;
+}
+#background img{
+  flex-shrink:0;
+  min-width:100%;
+  min-height:100%
+}
